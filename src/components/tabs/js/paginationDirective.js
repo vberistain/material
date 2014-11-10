@@ -1,14 +1,14 @@
 
 angular.module('material.components.tabs')
 
-.directive('mdTabsPagination', [
-  '$mdEffects',
-  '$window',
-  '$$rAF',
-  '$$q',
-  '$timeout',
-  TabPaginationDirective
-]);
+//.directive('mdTabsPagination', [
+//  '$mdEffects',
+//  '$window',
+//  '$$rAF',
+//  '$$q',
+//  '$timeout',
+//  TabPaginationDirective
+//]);
 
 function TabPaginationDirective($mdEffects, $window, $$rAF, $$q, $timeout) {
 
